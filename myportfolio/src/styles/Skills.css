@@ -1,0 +1,80 @@
+.skills p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.skills h3 {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.general h3, .front h3{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.back h3{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.general h3 {
+    background-color: rgb(0, 17, 255);
+}
+
+.front h3 {
+    background-color: #00FF00;
+}
+
+.back h3 {
+    background-color: rgb(255, 0, 0);
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .skills p {
+        font-size: 16px;
+    }
+
+    .skills h3 {
+        font-size: 10px;
+    }
+
+    .general h3, .front h3 {
+        left: 10px;
+    }
+
+    .back h3 {
+        left: 10px;
+        right: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills p {
+        font-size: 14px;
+    }
+
+    .skills h3 {
+        font-size: 8px;
+    }
+
+    .general h3, .front h3 {
+        left: 5px;
+    }
+
+    .back h3 {
+        left: 5px;
+        right: unset;
+    }
+}
